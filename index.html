@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="my.css">
+</head>
+<body>
+  <div id="header">
+    <h1>Welcome to Randomate</h1>
+    <h4>The place to find random random stuff</h4>
+    <hr id="top-hr">
+  </div>
+
+<div class="grid-container">
+  <div class="grid-x grid-margin-x">
+    <div class="cell medium-4">
+      <!-- Random Activity -->
+
+      <div id="activity">
+        <h2>Activity</h2>
+        <div id='act-name'></div>
+        <div id="act-type" class="act-desc"></div>
+        <div id="act-participants" class="act-desc"></div>
+        <hr>
+        <button id="act-random-btn" class="button expanded">Randomate Activity</button>
+      </div>
+
+    </div>
+    <div class="cell medium-4">
+      <!-- Random Dogs -->
+
+      <div id="dogs">
+        <h2>Dogs</h2>
+        <img id="dog-img" src="">
+        <div id='dog-name'></div>
+        <hr>
+        <button id="dog-random-btn" class="button expanded">Randomate Dogs</button>
+      </div>
+
+    </div>
+    <div class="cell medium-4">
+      <!-- Random Memes -->
+
+      <div id="memes">
+        <h2>Memes</h2>
+        <img id="meme-img" src="">
+        <div id="meme-title"></div>
+        <hr>
+        <button id="meme-random-btn" class="button expanded">Randomate Memes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script src='random.js'></script>
+<script src='ui.js'></script>
+<script src='app.js'></script>
+</body>
+</html>
